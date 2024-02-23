@@ -6,7 +6,7 @@ function aggiungiSchermo(input) {
 
 function somma() {
     try{
-        schermo.value = eval(schermo.value).toFixed(9);
+        schermo.value = eval(schermo.value);
     }
     catch(error) {
         schermo.value = "Errore";
