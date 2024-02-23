@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+
+    <div id="calcolatrice">
+        <input readonly id="schermo">
+        <div id="pulsanti">
+            <button onclick="aggiungiSchermo('+')" class="operatore">+</button>
+            <button onclick="aggiungiSchermo('7')">7</button>
+            <button onclick="aggiungiSchermo('8')">8</button>
+            <button onclick="aggiungiSchermo('9')">9</button>
+            <button onclick="aggiungiSchermo('-')" class="operatore">-</button>
+            <button onclick="aggiungiSchermo('4')">4</button>
+            <button onclick="aggiungiSchermo('5')">5</button>
+            <button onclick="aggiungiSchermo('6')">6</button>
+            <button onclick="aggiungiSchermo('*')" class="operatore">*</button>
+            <button onclick="aggiungiSchermo('1')">1</button>
+            <button onclick="aggiungiSchermo('2')">2</button>
+            <button onclick="aggiungiSchermo('3')">3</button>
+            <button onclick="aggiungiSchermo('/')" class="operatore">/</button>
+            <button onclick="aggiungiSchermo('0')">0</button>
+            <button onclick="aggiungiSchermo('.')">.</button>
+            <button onclick=somma()>=</button>
+            <button onclick=pulisciSchermo() class="operatore">C</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
